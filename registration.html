@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <div class="logoAndMenu">
+                <img class="logoHockey" src="images/Logo%20Mighty%20ducks-01.png" alt="Logo de Mighty ducks">
+
+                <div class="buttonMenu">
+                    <span class="material-icons" style="color:white;"> menu </span>
+                    <div class="menu">
+                        <a class="buttonLink" href="index.html">Home</a>
+                        <a class="buttonLink" href="about.html">About</a>
+                        <a class="buttonLink" href="contact.html">Contact</a>
+                        <a class="buttonLink" href="rules.html">Rules</a>
+                        <a class="buttonLink" href="game_info.html">Game Information</a>
+                        <a class="buttonSelected font-effect-fire" href="registration.html">Registration Form</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="head">
+                <div class="title">
+                    <h1 class="font-effect-fire">Mighty Ducks Hockey League</h1>
+                </div>
+
+                <div class="space"></div>
+
+                <div class="buttonsWarper">
+                    <a class="buttonLink" href="index.html">Home</a>
+                    <a class="buttonLink" href="about.html">About</a>
+                    <a class="buttonLink" href="contact.html">Contact</a>
+                    <a class="buttonLink" href="rules.html">Rules</a>
+                    <a class="buttonLink" href="game_info.html">Game Information</a>
+                    <a class="buttonSelected font-effect-fire" href="registration.html">Registration Form</a>
+                </div>
+
+                <img class="imageHockey" src="images/hockey4.jpg" alt="Imagen de jugadores de Hockey">
+                <div class="firstBar">Registration Form</div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+
+            <div class="socialBar">
+                <div class="socialElement">
+                    <a href="./index.html">
+                        <img class="socialIcon" src="images/facebook.png" alt="Facebook" width="40" height="40"
+                            style="margin-top: 5px;">
+                    </a>
+                </div>
+
+                <div class="socialElement">
+                    <a href="./index.html">
+                        <img class="socialIcon" src="images/twitterlogo.png" alt="Twitter" width="40" height="40"
+                            style="margin-top: 5px;">
+                    </a>
+                </div>
+
+                <div class="socialElement">
+                    <a href="./index.html">
+                        <img class="socialIcon" src="images/instagram.png" alt="Instagram" width="40" height="40"
+                            style="margin-top: 5px;">
+                    </a>
+                </div>
+
+                <div class="socialElement">
+                    <a href="./index.html">
+                        <img class="socialIcon" src="images/wpp.png" alt="Whatsapp" width="40" height="40"
+                            style="margin-top: 5px;">
+                    </a>
+                </div>
+            </div>
+
+            <div class="card">
+                <form action="show_data.html" method="get">
+                    <fieldset>
+                        <div>
+                            <label>
+                                Player's First Name:
+                                <input type="text" name="name" style="width: 40%;" required>
+                            </label>
+                            <label>
+                                Last Name:
+                                <input type="text" name="lname" style="width: 32.5%;" required>
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                Street Address:
+                                <input type="text" name="street" style="width: 85%;" required>
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                City:
+                                <input type="text" name="city" style="width: 40%;" required>
+                            </label>
+                            <label>
+                                Zip Code:
+                                <input type="text" name="zip" style="width: 44.5%;" required>
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                Birth Date(mm/dd/yyyy):
+                                <input type="date" name="birth" style="width: 60%;" required>
+                            </label>
+                            Gender:
+                            <label>
+                                Female
+                                <input type="radio" name="gender" value="f" required>
+                            </label>
+                            <label>
+                                Male
+                                <input type="radio" name="gender" value="m" required>
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                Grade:
+                                <input type="radio" value="g" required>
+                            </label>
+                            Pre-School
+                            <label>
+                                <input type="radio" name="grade" value="g" style="margin-left: 5%;"
+                                    required><sup>1st</sup>
+                            </label>
+                            <label>
+                                <input type="radio" name="grade" value="g" required><sup>2nd</sup>
+                            </label>
+                            <label>
+                                <input type="radio" name="grade" value="g" required><sup>3rd</sup>
+                            </label>
+                            <label>
+                                <input type="radio" name="grade" value="g" required><sup>4th</sup>
+                            </label>
+                            <label>
+                                <input type="radio" name="grade" value="g" required><sup>5th</sup>
+                            </label>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Which elementary school do you live near?</legend>
+                        <p>Closest School:</p>
+                        <div class="formsContent">
+                            <div class="firstcolumn">
+                                <label>
+                                    <input type="radio" name="school" value="s" required>
+                                    AJ Katzenmaier
+                                </label>
+                                <label>
+                                    <input type="radio" name="school" value="s" required>
+                                    Greenbay
+                                </label>
+                                <label>
+                                    <input type="radio" name="school" value="s" required>
+                                    Howard A Yeager
+                                </label>
+                            </div>
+                            <div class="secondcolumn">
+                                <label>
+                                    <input type="radio" name="school" value="s" required>
+                                    Marjorie P Hart
+                                </label>
+                                <label>
+                                    <input type="radio" name="school" value="s" required>
+                                    North Elementary
+                                </label>
+                                <label>
+                                    <input type="radio" name="school" value="s" required>
+                                    South Elementary
+                                </label>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>What position(s) do you normally play? (check all that apply)</legend>
+                        <div class="formsContent">
+                            <div class="firstcolumn">
+                                <label>
+                                    <input type="checkbox" name="position" value="Forward">
+                                    Forward
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="position" value="Defense">
+                                    Defense
+                                </label>
+                            </div>
+                            <div class="secondcolumn">
+                                <label>
+                                    <input type="checkbox" name="position" value="Midfield">
+                                    Midfield
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="position" value="Goalkeeper">
+                                    Goalkeeper
+                                </label>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Uniform Size</legend>
+                        <div class="formsContent">
+                            <div class="firstcolumn">
+                                <label>
+                                    <input type="radio" name="uniform" value="u" required>
+                                    Youth Smal
+                                </label>
+                                <label>
+                                    <input type="radio" name="uniform" value="u" required>
+                                    Youth Medium
+                                </label>
+                                <label>
+                                    <input type="radio" name="uniform" value="u" required>
+                                    Youth Large
+                                </label>
+                                <label>
+                                    <input type="radio" name="uniform" value="u" required>
+                                    Small
+                                </label>
+                            </div>
+                            <div class="secondcolumn">
+                                <label>
+                                    <input type="radio" name="uniform" value="u" required>
+                                    Medium
+                                </label>
+                                <label>
+                                    <input type="radio" name="uniform" value="u" required>
+                                    Large
+                                </label>
+                                <label>
+                                    <input type="radio" name="uniform" value="u" required>
+                                    Extra-Large
+                                </label>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Permission to Play</legend>
+                        <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will
+                            abide
+                            by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the
+                            possibility of
+                            physical injury associated with hockey and in consideration for the "League" accepting
+                            the
+                            registrant for its hockey programs and activities, I hereby release, discharge, and/or
+                            otherwise indemnify MDHL, their employees and associated personnel and volunteers,
+                            including
+                            the facilities used for practices and games, against any claim by or on behalf of the
+                            registrant as a result of the registrant's participation in the program and/or being
+                            transported to or from MDHL sponsored activities, which transportation</p>
+                        <p>By signing below, I hereby agree and authorize the above. In addition, by signing below,
+                            I
+                            also acknowledge that I have read the cancellation policy and agree to its terms.</p>
+                        <label>
+                            Parent/Guarding signature:
+                            <input type="text" name="signature" required>
+                        </label>
+                        <label>
+                            Date:
+                            <input type="date" name="date" required>
+                        </label>
+                    </fieldset>
+
+                    <div class="right">
+                        <div class="botonEnviar">
+                            <input style="background-color:rgba(0,0,0,0); border:0ch; color:white;" type="submit"
+                                value="Submit">
+                            <span class="material-icons">
+                                send
+                            </span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Daniel Olmos 2022 ©</p>
+    </footer>
+</body>
+
+</html>
